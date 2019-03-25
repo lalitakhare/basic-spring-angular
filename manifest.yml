@@ -1,0 +1,7 @@
+---
+applications:
+- name: gs-rest-service-app1
+  memory: 256M
+  instances: 1
+  domain: cfapps.io
+  path: target/basic-0.0.1-SNAPSHOT.jar
